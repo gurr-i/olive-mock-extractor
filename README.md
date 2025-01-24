@@ -11,6 +11,7 @@
 - Minimal dependencies and efficient performance.
 
 ---
+## Deployment
 
 ## Requirements  
 - Python 3.8+
@@ -44,7 +45,54 @@
    ```bash
    python main.py
    ```
+---
+## Deployment
 
+### 1. Deploying on a VPS
+To deploy the bot on your VPS:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/devgaganin/testbook-bot.git
+   cd testbook-bot
+   ```
+
+2. **Install Dependencies**:
+   Ensure Python 3.8+ and `pip` are installed, then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory or export the following variables:
+   ```bash
+   API_ID=your_api_id
+   API_HASH=your_api_hash
+   BOT_TOKEN=your_bot_token
+   AUTH_CODE=your_auth_code
+   ```
+
+4. **Run the Bot**:
+   Start the bot using:
+   ```bash
+   python main.py
+   ```
+
+---
+
+### 2. Deploying on Heroku
+To deploy the bot on **Heroku**, click the button below and fill in the required environment variables:
+
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+#### Steps:
+1. Click the **Deploy on Heroku** button above.
+2. Enter the following required environment variables during deployment:
+   - `API_ID`
+   - `API_HASH`
+   - `BOT_TOKEN`
+   - `AUTH_CODE`
+3. Deploy the app and monitor the logs to ensure the bot is running successfully.
 ---
 
 ## Commands  
@@ -107,4 +155,5 @@ If this project is engaging in any activities that you consider misleading, inap
 
 Contact Information:
 [Email](mailto:business@devgagan.in)
+
 Thank you for your understanding and cooperation.
