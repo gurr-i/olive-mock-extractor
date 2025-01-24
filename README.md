@@ -99,4 +99,12 @@ Unauthorized commercial use is strictly prohibited.
 ## Disclaimer  
 The bot is intended solely for personal and educational purposes.  
 Use at own responsibilty and copying, modifying part of this code/reuse is not allowed.
-The developer is not responsible for any misuse or breach of third-party API terms.  
+The developer is not responsible for any misuse or breach of third-party API terms. 
+
+## For TestBook Representatives:
+Hey respected representatives,
+If this project is engaging in any activities that you consider misleading, inappropriate, or in violation of your policies, please feel free to reach out to me immediately. I am committed to resolving any issues and will take necessary actions, including shutting down the project if required.
+
+Contact Information:
+[Email](mailto:business@devgagan.in)
+Thank you for your understanding and cooperation.
