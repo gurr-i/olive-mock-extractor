@@ -53,8 +53,8 @@ To deploy the bot on your VPS:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/devgaganin/testbook-bot.git
-   cd testbook-bot
+   git clone https://github.com/devgaganin/TestBook-Bot.git
+   cd TestBook-Bot
    ```
 
 2. **Install Dependencies**:
