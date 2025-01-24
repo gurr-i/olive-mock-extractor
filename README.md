@@ -11,8 +11,6 @@
 - Minimal dependencies and efficient performance.
 
 ---
-## Deployment
-
 ## Requirements  
 - Python 3.8+
 - [Telethon](https://github.com/LonamiWebs/Telethon) library for interacting with Telegram.
