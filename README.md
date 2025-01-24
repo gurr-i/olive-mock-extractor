@@ -38,7 +38,7 @@
    API_ID=your_api_id
    API_HASH=your_api_hash
    BOT_TOKEN=your_bot_token
-   AUTH_CODE=your_auth_code
+   AUTH_CODE=your_auth_code # eg: eyfgobtiOtrtrUzI......eyJpc3MiHRwewczovL3Rlc3Rib....
    ```
 
 4. Run the bot:
@@ -69,7 +69,7 @@ To deploy the bot on your VPS:
    API_ID=your_api_id
    API_HASH=your_api_hash
    BOT_TOKEN=your_bot_token
-   AUTH_CODE=your_auth_code
+   AUTH_CODE=your_auth_code # eg: eyfgobtiOtrtrUzI......eyJpc3MiHRwewczovL3Rlc3Rib....
    ```
 
 4. **Run the Bot**:
@@ -91,7 +91,7 @@ To deploy the bot on **Heroku**, click the button below and fill in the required
    - `API_ID`
    - `API_HASH`
    - `BOT_TOKEN`
-   - `AUTH_CODE`
+   - `AUTH_CODE` # eg: eyfgobtiOtrtrUzI......eyJpc3MiHRwewczovL3Rlc3Rib....
 3. Deploy the app and monitor the logs to ensure the bot is running successfully.
 ---
 
