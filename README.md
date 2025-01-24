@@ -1,4 +1,4 @@
-# Testbook Bot  
+# Testbook  Test Extractor Bot  
 **A powerful Telegram bot to fetch and generate visually appealing HTML test files.**
 
 ---
