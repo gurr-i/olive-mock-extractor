@@ -20,35 +20,9 @@
 
 ---
 
-## Installation  
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/devgaganin/TestbookBot.git
-   cd TestbookBot
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Set environment variables in a `.env` file or directly configure them:
-   ```
-   API_ID=your_api_id
-   API_HASH=your_api_hash
-   BOT_TOKEN=your_bot_token
-   AUTH_CODE=your_auth_code # eg: eyfgobtiOtrtrUzI......eyJpc3MiHRwewczovL3Rlc3Rib....
-   ```
-
-4. Run the bot:
-   ```bash
-   python main.py
-   ```
----
 ## Deployment
 
-### 1. Deploying on a VPS
+### 1. Installing on VPS or Windows
 To deploy the bot on your VPS:
 
 1. **Clone the Repository**:
