@@ -134,7 +134,7 @@ To deploy the bot on **Heroku**, click the button below and fill in the required
 ---
 
 ## License  
-This project is licensed under the **GNU Affero General Public License v2** (APGL-2.0).  
+This project is licensed under the **GNU Affero General Public License v3** (APGL-3.x).  
 **Strict Provisions:**
 - **No Commercial Use**: This software and its derivatives must not be used for commercial purposes or sold.
 - **No part of this code, including edits, is allowed to be used for commercial or sale purposes.**
