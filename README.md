@@ -1,4 +1,4 @@
-# Testbook  Test Extractor Bot  
+# TestBook Bot  
 **A powerful Telegram bot repository to connect with TestBook via API to fetch & generate visually appealing HTML test files, using your authorised credentials**
 
 ---
