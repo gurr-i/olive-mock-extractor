@@ -1,5 +1,5 @@
 # Testbook  Test Extractor Bot  
-**A powerful Telegram bot to fetch and generate visually appealing HTML test files.**
+**A powerful Telegram bot repository to connect with TestBook via API to fetch & generate visually appealing HTML test files, using your authorised credentials**
 
 ---
 
@@ -98,4 +98,5 @@ Unauthorized commercial use is strictly prohibited.
 
 ## Disclaimer  
 The bot is intended solely for personal and educational purposes.  
+Use at own responsibilty and copying, modifying part of this code/reuse is not allowed.
 The developer is not responsible for any misuse or breach of third-party API terms.  
