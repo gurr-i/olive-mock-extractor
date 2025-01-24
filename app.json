@@ -1,0 +1,30 @@
+{
+  "name": "Testbook API Bot",
+  "description": "A Telegram bot to fetch and display test data.",
+  "repository": "https://github.com/your-repo-url", 
+  "keywords": ["python", "telegram", "bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "required": true
+    },
+    "AUTH_CODE": {
+      "description": "Auth code for accessing the API",
+      "required": true
+    }
+  },
+  "stack": "heroku-22"
+}
