@@ -72,13 +72,15 @@ async def select_language(event):
 
     # Generate the HTML file
     try:
+        course = data['data'].get('course', 'Unknown Course')  
+        title = data['data'].get('title', 'Untitled Test')
         html_content = generate_html(data["data"], language)
-        file_path = f"test_questions_{event.chat_id}.html"
+        file_path = f"{title}.html"
         with open(file_path, "w", encoding="utf-8") as file:
             file.write(html_content)
 
         # Send the HTML file to the user
-        await bot.send_file(event.chat_id, file=file_path, caption="__**Powered by Team SPY**__")
+        await bot.send_file(event.chat_id, file=file_path, caption=f"**📕 Test Name: {title}**\n**😰 Exam: {course}**\n\n__**Powered by Team SPY**__")
         os.remove(file_path)  # Clean up
     except Exception as e:
         await event.reply(f"Error generating HTML file: {e}")
