@@ -20,6 +20,14 @@
 
 ## Deployment
 
+#### How to get AUTH_CODE :
+- step 1) Start any test before that must open developer tools for that test
+- step 2) Now choose Network Tab then select fetch/XHR There are may fields which are containing `auth_code` select any of them and double click over that
+- ![image](https://github.com/user-attachments/assets/036a226a-0d17-4810-a71c-1b0cae553885)
+- step 3) After double tap it will open a new tab in browser where have to copy the part of auth_code after = from URL (address bar)
+- ![image](https://github.com/user-attachments/assets/a82f955e-f03a-4f49-8410-a666beaa0482)
+- step 4) after `=` the whole is your AUTH_CODE upto param like `&` Remember if anything at last comes including & remove that suppose your url is `https://api.testbook.com/api/v1/goals?auth_code=ey.......&language=English` then you have to take part before `&` and after `=`
+
 ### 1. Installing on VPS or Windows
 To deploy the bot on your VPS:
 
