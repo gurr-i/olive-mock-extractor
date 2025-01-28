@@ -16,8 +16,8 @@ async def start(event):
     """Handle /start command"""
     await event.reply(
         "**Welcome to the Mock Extractor Bot!**\n\n"
-        "Send `/olive exam testid` for oliveboard\n\n"
-        "**__Example: `/olive ntpc1 1`__**\n\n"
+        "Send `/fetch exam testid` for oliveboard\n\n"
+        "**__Example: `/fetch ntpc1 1`__**\n\n"
         "__**Powered by Team SPY**__"
     )
 
@@ -57,7 +57,7 @@ BASE_URIS = {
 
 }
 
-@bot.on(events.NewMessage(pattern=r"/olive (\w+) (\d+)"))
+@bot.on(events.NewMessage(pattern=r"/fetch (\w+) (\d+)"))
 async def fetch_exam(event):
     """Fetches test details based on the exam type and test ID."""
     if event.sender_id != OWNER_ID:
