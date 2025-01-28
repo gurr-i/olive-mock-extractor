@@ -1,8 +1,8 @@
 {
-  "name": "Testbook API Bot",
+  "name": "Oliveboard Mock Bot",
   "description": "A Telegram bot to fetch and display test data.",
-  "repository": "https://github.com/your-repo-url", 
-  "keywords": ["python", "telegram", "bot"],
+  "repository": "https://github.com/devgaganin/Mocks-Saver-Bot/", 
+  "keywords": ["python", "telegram", "bot", "automation"],
   "buildpacks": [
     {
       "url": "heroku/python"
@@ -21,8 +21,12 @@
       "description": "Your Telegram bot token",
       "required": true
     },
-    "AUTH_CODE": {
-      "description": "Auth code for accessing the API",
+    "COOKIES": {
+      "description": "COOKIES for authorised use",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Put owner id / or channel id if want access to channel (with -100)",
       "required": true
     }
   },
