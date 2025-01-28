@@ -61,7 +61,7 @@ To deploy the bot on **Heroku**, click the button below and fill in the required
    - `API_ID`
    - `API_HASH`
    - `BOT_TOKEN`
-   - `COOKIES` # eg: eyfgobtiOtrtrUzI......eyJpc3MiHRwewczovL3Rlc3Rib....
+   - `COOKIES`
 3. Deploy the app and monitor the logs to ensure the bot is running successfully.
 ---
 
