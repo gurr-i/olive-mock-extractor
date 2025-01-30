@@ -1,7 +1,7 @@
 {
   "name": "Oliveboard Mock Bot",
   "description": "A Telegram bot to fetch and display test data.",
-  "repository": "https://github.com/devgaganin/Mocks-Saver-Bot/", 
+  "repository": "https://github.com/gurr-i/olive-mock-extractor.git", 
   "keywords": ["python", "telegram", "bot", "automation"],
   "buildpacks": [
     {
