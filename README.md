@@ -25,7 +25,7 @@ A Telegram bot built using the Telethon library, designed to fetch and process m
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/olive-mock-extractor.git
+   git clone [https://github.com/yourusername/olive-mock-extractor.git](https://github.com/gurr-i/olive-mock-extractor.git)
    cd olive-mock-extractor
    ```
 
